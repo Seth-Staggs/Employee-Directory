@@ -5,7 +5,7 @@ function Header(props) {
         <div className={"jumbotron"}>
             <h1>Employee Directory</h1>
             <input type="text" name= "search" onChange={props.handleInput}
-            placeholder="Enter Employee First Name"
+            placeholder="Enter Employee Name"
             />
         </div>
     )
